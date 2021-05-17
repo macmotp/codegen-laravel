@@ -27,7 +27,7 @@ trait HasCodegen
      */
     public static function findByCode(string $code): ?self
     {
-        return self::where((new static)->getCodeColumn(), $code)->first();
+        return self::where((new static())->getCodeColumn(), $code)->first();
     }
 
     /**
