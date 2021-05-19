@@ -13,3 +13,7 @@ All notable changes to `macmotp/codegen-laravel` will be documented in this file
 ## v0.1.2 - 2021-05-18
 
 - bump generator version
+
+## v0.1.3 - 2021-05-19
+
+- bump support for php 8

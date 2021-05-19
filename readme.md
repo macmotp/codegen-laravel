@@ -10,8 +10,10 @@ Useful for generation of referral codes based on names, receipt numbers, unique 
 #### This is the Laravel extension for the package [Codegen - Generate Human Friendly Codes](https://github.com/macmotp/codegen)
 
 ## Requirements
-- PHP >= 7.4
+- PHP 8.0
 - Laravel >= 5
+
+_if you use PHP 7.4, please make sure to use v0.1.2_
 
 ## Installation
 
