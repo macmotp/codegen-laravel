@@ -17,3 +17,7 @@ All notable changes to `macmotp/codegen-laravel` will be documented in this file
 ## v0.1.3 - 2021-05-19
 
 - bump support for php 8
+
+## v0.1.4 - 2021-05-20
+
+- fix default config on trait

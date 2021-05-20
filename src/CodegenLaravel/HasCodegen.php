@@ -81,7 +81,7 @@ trait HasCodegen
      */
     protected function buildCodeFrom(): string
     {
-        return $this->{config('codegen.build-from')} ?? 'name';
+        return $this->{config('codegen.build-from')} ?? $this->name ?? '';
     }
 
     /**
