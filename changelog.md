@@ -21,3 +21,7 @@ All notable changes to `macmotp/codegen-laravel` will be documented in this file
 ## v0.1.4 - 2021-05-20
 
 - fix default config on trait
+- 
+## v0.2.0 - 2022-02-11
+
+- support for Laravel 9

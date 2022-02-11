@@ -1,6 +1,6 @@
 {
   "name": "macmotp/codegen-laravel",
-  "version": "v0.1.4",
+  "version": "v0.2.0",
   "description": "Generate human friendly codes - Laravel Extension",
   "keywords": [
     "macmotp",
@@ -25,17 +25,12 @@
   ],
   "require": {
     "php": "^8.0",
-    "illuminate/contracts": "^8.37",
     "macmotp/codegen": "^0.1.5",
-    "spatie/laravel-package-tools": "^1.4.3"
+    "spatie/laravel-package-tools": "^1.11"
   },
   "require-dev": {
-    "brianium/paratest": "^6.2",
-    "nunomaduro/collision": "^5.3",
-    "orchestra/testbench": "^6.15",
-    "phpunit/phpunit": "^9.3",
-    "spatie/laravel-ray": "^1.9",
-    "vimeo/psalm": "^4.4"
+    "orchestra/testbench": "^6.24",
+    "phpunit/phpunit": "^9.5"
   },
   "autoload": {
     "psr-4": {
@@ -48,8 +43,7 @@
     }
   },
   "scripts": {
-    "psalm": "vendor/bin/psalm",
-    "test": "./vendor/bin/testbench package:test --parallel --no-coverage",
+    "test": "vendor/bin/phpunit",
     "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
   },
   "config": {
