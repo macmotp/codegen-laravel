@@ -25,3 +25,8 @@ All notable changes to `macmotp/codegen-laravel` will be documented in this file
 ## v0.2.0 - 2022-02-11
 
 - support for Laravel 9
+
+## v0.3.0 - 2023-07-08
+
+- bump support for php 8.2
+- support for Laravel 10
